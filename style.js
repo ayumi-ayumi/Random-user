@@ -12,7 +12,7 @@ async function callApi(){
   const userList = users.results;
   console.log(userList);
   
-  //with forEach method (only for array)
+  //with forEach loop (only for array)
   // userList.forEach (function (user) {
   //   let ul = document.querySelector('ul');
   //   let li = document.createElement('li');  
@@ -24,7 +24,7 @@ async function callApi(){
   //   console.log(fullName);
   // });
 
-  //with for method
+  //with for loop
   for (let i = 0; i < userList.length; i++) {
 
     let div = document.querySelector('div');
