@@ -10,7 +10,7 @@ async function callApi(){
   const res = await fetch('https://randomuser.me/api/?results=100');
   const users = await res.json();
   const userList = users.results;
-  console.log(userList);
+  // console.log(userList);
   
   //with forEach loop (only for array)
   // userList.forEach (function (user) {
@@ -78,7 +78,7 @@ async function callApi(){
     person.append(img, name, nat, br, github, fb, twitter);
     div.appendChild(person);
 
-    console.log(fullName);
+    // console.log(fullName);
   }
 }
 callApi();

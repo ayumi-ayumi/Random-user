@@ -1,6 +1,5 @@
 .container {
   display: flex;
-  /* flex-direction: row; */
   flex-wrap: wrap;
   justify-content: space-around;
 }
@@ -8,7 +7,7 @@ div img {
   border-radius: 50%;
 }
 
-/* mobile responsive*/
+/* mobile responsive */
 @media screen and (max-width:480px)  {
   .container div {
     text-align: center;
@@ -28,8 +27,8 @@ div img {
   }
 }
 
-/* over 801px screen */
-@media screen and (min-width: 801px) {
+/* over 800px screen */
+@media screen and (min-width: 800px) {
   .container div {
     text-align: center;
     width:15%;
